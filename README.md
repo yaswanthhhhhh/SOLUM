@@ -4,7 +4,7 @@
 
 ---
 
-## 🌊 About This Project
+##  About This Project
 
 **SOLUM** is a fictional futuristic tech company landing page centered around its flagship product, **SOLUM CORE™**, the world's first photonic AI chip. The site is designed with a sleek, corporate personality inspired by brands like Apple and Linear, using a deep ocean color palette of teals, aquas, and dark navy.
 
@@ -12,7 +12,7 @@ This project was built as a frontend showcase using only HTML, CSS, and a tiny b
 
 ---
 
-## 🧠 The Story Behind SOLUM
+##  The Story Behind SOLUM
 
 ### The Origin
 
@@ -47,7 +47,7 @@ SOLUM exists for every developer, every startup, every enterprise, and every res
 
 ---
 
-## 🔩 The Product: SOLUM CORE™
+##  The Product: SOLUM CORE™
 
 SOLUM CORE™ is a physical AI chip unlike anything the semiconductor industry has produced. It is the world's first chip to use **photonic neural routing** as its core compute architecture.
 
@@ -73,7 +73,7 @@ SOLUM CORE™ is a physical AI chip unlike anything the semiconductor industry h
 
 ---
 
-## 🎨 Design & Color Palette
+##  Design & Color Palette
 
 The site uses a deep **ocean / teal** color theme, chosen to reflect the depth, mystery, and raw power behind the product's story.
 
@@ -90,7 +90,7 @@ The site uses a deep **ocean / teal** color theme, chosen to reflect the depth, 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 solum/
@@ -117,7 +117,7 @@ solum/
 
 ---
 
-## ✨ Features
+## Features
 
 - **Custom animated cursor** with a smooth lagging ring effect
 - **CSS-only chip diagram** with three spinning orbital rings and glowing dots
@@ -140,7 +140,7 @@ solum/
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 No setup required. Just open the file:
 
@@ -156,7 +156,7 @@ Or simply drag `index.html` into any browser.
 
 ---
 
-## 🌐 Deploy on GitHub Pages
+##  Deploy on GitHub Pages
 
 1. Push this repo to GitHub
 2. Go to **Settings > Pages**
@@ -169,7 +169,7 @@ https://<your-username>.github.io/solum
 
 ---
 
-## 📁 Sections Overview
+##  Sections Overview
 
 | Section        | Description                                                        |
 |----------------|--------------------------------------------------------------------|
@@ -183,7 +183,7 @@ https://<your-username>.github.io/solum
 
 ---
 
-## 💬 Founder Quote
+##  Founder Quote
 
 > *"We didn't set out to disrupt the semiconductor industry. We just refused to accept that this was as fast as AI could get."*
 >
@@ -191,10 +191,10 @@ https://<your-username>.github.io/solum
 
 ---
 
-## 📄 License
+##  License
 
 This is a personal frontend project built for learning and portfolio purposes. All brand names, product names, and company details are entirely fictional.
 
 ---
 
-*Built with HTML, CSS & JS. No build tools, no dependencies, no compromise.*
+*Built with HTML, CSS & JS. 
