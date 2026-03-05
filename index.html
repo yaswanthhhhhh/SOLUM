@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SOLUM — The Ground Everything Runs On</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/variables.css"/>
+  <link rel="stylesheet" href="css/nav.css"/>
+  <link rel="stylesheet" href="css/hero.css"/>
+  <link rel="stylesheet" href="css/specs.css"/>
+  <link rel="stylesheet" href="css/story.css"/>
+  <link rel="stylesheet" href="css/features.css"/>
+  <link rel="stylesheet" href="css/quote.css"/>
+  <link rel="stylesheet" href="css/footer.css"/>
+  <link rel="stylesheet" href="css/animations.css"/>
+  <link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">SOLUM</div>
+    <div class="nav-links">
+      <a href="#story">Story</a>
+      <a href="#features">Technology</a>
+      <a href="#specs">Specs</a>
+      <a href="#" class="nav-cta">Pre-Order</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-chip-label"><div class="chip-dot"></div> Introducing SOLUM CORE™</div>
+      <h1 class="hero-title">
+        THE GROUND<br/>
+        <span class="accent">EVERYTHING</span><br/>
+        RUNS ON.
+      </h1>
+      <p class="hero-tagline">The world's first photonic AI chip. 40× the compute. 94% less power. Born in a garage. Built to dominate.</p>
+      <div class="hero-actions">
+        <a href="#specs" class="btn-primary">Explore the Chip</a>
+        <a href="#story" class="btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="chip-wrap">
+        <div class="chip-orbit orbit1"></div>
+        <div class="chip-orbit orbit2"></div>
+        <div class="chip-orbit orbit3"></div>
+        <div class="chip-glow"></div>
+        <div class="chip-body">
+          <div class="pin pin-h pin-tl-h"></div>
+          <div class="pin pin-v pin-tl-v"></div>
+          <div class="pin pin-h pin-tr-h"></div>
+          <div class="pin pin-v pin-tr-v"></div>
+          <div class="pin pin-h pin-bl-h"></div>
+          <div class="pin pin-v pin-bl-v"></div>
+          <div class="pin pin-h pin-br-h"></div>
+          <div class="pin pin-v pin-br-v"></div>
+          <div class="chip-logo">SOLUM</div>
+          <div class="chip-sub">CORE™ · GEN 1</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECS BAR -->
+  <div class="specs-bar" id="specs">
+    <div class="spec"><div class="spec-num">40<span class="spec-unit">×</span></div><div class="spec-label">Raw Compute over Silicon</div></div>
+    <div class="spec"><div class="spec-num">94<span class="spec-unit">%</span></div><div class="spec-label">Less Power Consumption</div></div>
+    <div class="spec"><div class="spec-num">1.2<span class="spec-unit">PF</span></div><div class="spec-label">Petaflops Sustained</div></div>
+    <div class="spec"><div class="spec-num">3<span class="spec-unit">nm</span></div><div class="spec-label">Photonic Node Process</div></div>
+    <div class="spec"><div class="spec-num">&lt;1<span class="spec-unit">ms</span></div><div class="spec-label">Inference Latency</div></div>
+  </div>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="story-left">
+      <div class="eyebrow">✦ The Origin</div>
+      <h2 class="story-title">A GARAGE.<br/>A BROKEN GPU.<br/><span>A BREAKTHROUGH.</span></h2>
+      <div class="story-body">
+        <p>In 2021, two engineering graduates — working out of a rented garage with a thermal camera, salvaged circuit boards, and zero funding — discovered something the entire semiconductor industry had missed for decades.</p>
+        <p>While trying to fix a failing GPU, they stumbled onto a method of routing neural computations through photonic circuits — using light instead of electricity. The result was processing speeds that defied everything on the market.</p>
+        <p>They didn't plan to build a company. They planned to publish a paper. But when they realized what they had, the paper became a prototype. The prototype became SOLUM CORE. And SOLUM CORE changed everything.</p>
+      </div>
+    </div>
+    <div class="story-right">
+      <div class="story-card">
+        <div class="story-card-num">01</div>
+        <div class="story-card-title">The Discovery</div>
+        <div class="story-card-text">Photonic neural routing — the idea that light-based circuits could carry AI computations at a fraction of the energy cost of silicon.</div>
+      </div>
+      <div class="story-card">
+        <div class="story-card-num">02</div>
+        <div class="story-card-title">The Prototype</div>
+        <div class="story-card-text">18 months of nights and weekends. A chip the size of a thumbnail that outperformed data center-grade hardware in every benchmark they ran.</div>
+      </div>
+      <div class="story-card">
+        <div class="story-card-num">03</div>
+        <div class="story-card-title">The Company</div>
+        <div class="story-card-text">SOLUM was incorporated with one mission: build the last AI chip the world will ever need. Everything else is noise.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="features-header">
+      <div class="feat-eyebrow">✦ Core Technology</div>
+      <h2 class="feat-title">WHY SOLUM<br/><span>WINS.</span></h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card"><div class="feat-icon-wrap">🔬</div><div class="feat-name">Photonic Neural Routing</div><div class="feat-desc">Light-based computation eliminates resistive heat, slashing energy use while multiplying throughput beyond any silicon architecture.</div></div>
+      <div class="feat-card"><div class="feat-icon-wrap">⚡</div><div class="feat-name">Sub-Millisecond Inference</div><div class="feat-desc">Real-time AI inference at under 1ms. Run the largest models on edge devices that used to require a data center.</div></div>
+      <div class="feat-card"><div class="feat-icon-wrap">🌡️</div><div class="feat-name">Near-Zero Thermal Output</div><div class="feat-desc">Photonic circuits generate a fraction of the heat of transistor-based chips — no cooling infrastructure required.</div></div>
+      <div class="feat-card"><div class="feat-icon-wrap">🔩</div><div class="feat-name">Universal Drop-In Form Factor</div><div class="feat-desc">SOLUM CORE fits standard PCIe slots. No custom infrastructure. Plug it in and watch your stack transform overnight.</div></div>
+      <div class="feat-card"><div class="feat-icon-wrap">🛡️</div><div class="feat-name">Hardware-Level Security</div><div class="feat-desc">On-chip encryption and secure enclave processing. Your model weights and inference data never leave the chip unprotected.</div></div>
+      <div class="feat-card"><div class="feat-icon-wrap">🌐</div><div class="feat-name">Edge-to-Cloud Native</div><div class="feat-desc">The same chip architecture runs in hyperscale cloud deployments and palm-sized edge devices. One chip. Every scale.</div></div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <div class="quote-section">
+    <span class="quote-mark">"</span>
+    <p class="quote-text">We didn't set out to disrupt the semiconductor industry. We just refused to accept that this was as fast as AI could get.</p>
+    <div class="quote-attr">— Founders, SOLUM Technologies</div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">SOLUM</div>
+        <div class="footer-tagline">The ground everything runs on. Photonic AI silicon for the companies that refuse to be second.</div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Product</div>
+        <a href="#">SOLUM CORE™</a>
+        <a href="#">Specifications</a>
+        <a href="#">Benchmarks</a>
+        <a href="#">Pre-Order</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Developers</div>
+        <a href="#">SDK</a>
+        <a href="#">Documentation</a>
+        <a href="#">GitHub</a>
+        <a href="#">API</a>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Company</div>
+        <a href="#">Our Story</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 SOLUM Technologies, Inc. All rights reserved.</div>
+      <div class="footer-legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Patents</a></div>
+    </div>
+  </footer>
+
+  <script src="js/cursor.js"></script>
+  <script src="js/animations.js"></script>
+
+</body>
+</html>
