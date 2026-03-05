@@ -1,0 +1,96 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.4rem var(--side-pad);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(7, 22, 28, 0.8);
+  backdrop-filter: blur(20px);
+  border-bottom: var(--border-subtle);
+}
+
+.nav-logo {
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  letter-spacing: 0.28em;
+  background: linear-gradient(90deg, var(--white) 0%, var(--aqua) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.nav-links a {
+  color: var(--muted);
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 0.25s;
+}
+
+.nav-links a:hover {
+  color: var(--teal);
+}
+
+.nav-cta {
+  padding: 0.55rem 1.5rem;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, var(--teal), var(--deep));
+  color: var(--bg) !important;
+  font-weight: 500;
+  transition: opacity 0.3s !important;
+}
+
+.nav-cta:hover {
+  opacity: 0.85 !important;
+}
+
+/* Shared buttons */
+.btn-primary {
+  padding: 0.9rem 2.4rem;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, var(--teal), var(--deep));
+  color: var(--bg);
+  font-weight: 500;
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: none;
+  cursor: none;
+  display: inline-block;
+  transition: opacity 0.3s, transform 0.3s;
+  box-shadow: var(--glow-sm);
+}
+
+.btn-primary:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  padding: 0.9rem 2.4rem;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid rgba(0, 201, 177, 0.3);
+  color: var(--text);
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: none;
+  display: inline-block;
+  transition: border-color 0.3s, background 0.3s, transform 0.3s;
+}
+
+.btn-ghost:hover {
+  border-color: var(--teal);
+  background: rgba(0, 201, 177, 0.06);
+  transform: translateY(-2px);
+}
